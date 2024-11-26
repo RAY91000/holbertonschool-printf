@@ -27,7 +27,7 @@ int printf_int(va_list ap)
 		div *= 	10;
 	while (div != 0)
 	{
-		len += _putchar((num / div) + '\0');
+		len += _putchar((num / div) + '0');
 		div /= 10;
 	}
 	return (len);
