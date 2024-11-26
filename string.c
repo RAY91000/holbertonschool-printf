@@ -2,7 +2,8 @@
 
 /**
  * printf_string - print a string
- * args: containing the string
+ * @args: containing the string
+ *
  * Return: number of charcter to print.
  */
 
