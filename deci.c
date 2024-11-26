@@ -7,7 +7,7 @@
  */
 int _printf_deci(va_list ap)
 {
-	int n = va_arg(ap int);
+	int n = va_arg(ap, int);
 	int counter = 0;
 	unsigned int num = n; 
 	int div = 1;
