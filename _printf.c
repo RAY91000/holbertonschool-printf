@@ -1,7 +1,8 @@
 #include "main.h"
-/*
- *
- *
+/**
+ *_printf - 
+ *@format:
+ *return:
  */
 int _printf(const char *format, ...)
 {
@@ -25,4 +26,4 @@ int _printf(const char *format, ...)
 	}
 va_end(args);
 return counter;
-}		
+}
