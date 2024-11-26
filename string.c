@@ -13,7 +13,7 @@ int printf_string(va_list args)
 	char *s = va_arg(args, char *);
 	if (s == NULL)
 		s = "(NULL)";
-	while (s[count])
+	while (s[counter])
 	{
 		_putchar(s[counter++]);
 	}
