@@ -9,4 +9,5 @@ int _printf_char(va_list args);
 int printf_string(va_list args);
 int _printf_percent(va_list args);
 int printf_int(va_list ap);
+int _printf_deci(va_list ap);
 #endif
