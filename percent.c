@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_printf_percent - prints the % symbol 
+ *_printf_percent - prints the % symbol
  *@args: function argument
  *Return: 0 = Success
  */
