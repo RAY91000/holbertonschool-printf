@@ -62,8 +62,8 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 ```
 ## Man Page
 
-Here is our [manual page](). Feel free to check it out!
+Here is our [manual page](https://github.com/RAY91000/holbertonschool-printf/blob/main/man_3_printf). Feel free to check it out!
 
 # Authors
-[Kérian](https://github.com/Hikarikedo)
-[Ray](https://github.com/RAY91000)
+- [Kérian](https://github.com/Hikarikedo)
+- [Ray](https://github.com/RAY91000)
