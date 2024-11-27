@@ -6,7 +6,7 @@ This project's purpose is to recreate that very same function but under the name
 
 ## Flowchart
 
-
+![Flowchart image (1)](https://cdn.discordapp.com/attachments/1112152814777544847/1311420238016811018/Logigramme.png?ex=6748cac5&is=67477945&hm=e770cc2c2acfca80023e5646aebc48f50f6e1b149b02ee9b43273001beae213a&)
 
 ## The main purpose
 
