@@ -1,0 +1,40 @@
+.TH _PRINTF 1 "November 2024" "Custom Library" "Formatted Output"
+.SH NAME
+_printf \- Custom formatted output function
+.SH SYNOPSIS
+.B #include "main.h"
+.B int _printf(const char *format, ...);
+.SH DESCRIPTION
+.B _printf
+is a custom implementation of the standard
+.B printf
+function, designed to format and print data to
+stdout based on a format string.
+.SH FORMAT SPECIFIERS
+.TP
+.BR %c
+Prints a single character.
+.TP
+.BR %s
+Prints a string of characters (null-terminated).
+.TP
+.BR %%
+Prints a literal percent sign (`%`).
+.TP
+.BR %d
+Prints a signed decimal integer.
+.TP
+.BR %i
+Prints a signed integer (equivalent to "%d").
+.SH RETURN VALUE
+.B _printf
+returns the total number of characters printed (excluding the null-terminating character).
+.TP
+_printf("Hello, %s!\n", "world"); 
+/* Output: Hello, world */
+.TP
+_printf("%d\n", 999); 
+/* Output: 999 */
+.SH AUTHOR
+.B KERIAN
+.B RAY
