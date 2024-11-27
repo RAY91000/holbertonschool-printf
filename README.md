@@ -1,9 +1,8 @@
+![Holberton school image](https://holberton.anahuacmayab.mx/wp-content/uploads/2022/06/Holberton-Logo-v1.png)
 # Printf Project
 
-```
 printf is a function used to print character strings that'll return to the terminal output.
 This project's purpose is to recreate that very same function but under the name _printf.
-```
 
 ## Flowchart
 
@@ -22,11 +21,11 @@ Here are some examples:
 
 int main(void)
 {
-    _printf("%c\n", 'K')
-    return (0)
+    _printf("%c\n", 'K');
+    return (0);
 }
-the output on the terminal will be K
 ```
+The output on the terminal will be K
 
 ### String
 
@@ -35,4 +34,36 @@ the output on the terminal will be K
 
 int main(void)
 {
-    _printf("Hello World", %s!\n")
+    _printf("Hello, %s!\n", "World");
+    return (0);
+}
+```
+The output on the terminal will be Hello, World
+
+### Integer
+
+```
+#include "main.h"
+
+int main(void)
+{
+    _printf("%d\n", 999);
+    return (0);
+}
+```
+The output on the terminal will be 999
+
+## Compilation
+
+All of our codes will be compiled on Ubuntu 20.04 LTS with:
+
+```
+`gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c`
+```
+## Man Page
+
+Here is our [manual page](). Feel free to check it out!
+
+# Authors
+[Kérian](https://github.com/Hikarikedo)
+[Ray](https://github.com/RAY91000)
