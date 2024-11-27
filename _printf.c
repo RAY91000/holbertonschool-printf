@@ -7,34 +7,20 @@
  *Return: returns the number of characters printed
  */
 
-typedef struct format_specifier
-{
-	char specifier;
-	int (*func)(va_list);
-}
-
-format_specifier_t;
-
-format_specifier_t specifiers[] = {
-	{'c', _printf_char},
-	{'s', printf_string},
-	{'d', _printf_deci},
-	{'i', printf_int},
-	{'%', _printf_percent},
-	{'\0', NULL},
-};
-
 int _printf(const char *format, ...)
 {
+	format_specifier_t specifiers[] = {
+		{'c', _printf_char}, {'s', printf_string},
+		{'d', _printf_deci}, {'i', printf_int},
+		{'%', _printf_percent}, {'\0', NULL},
+	};
 	va_list args;
-	int i = 0;
 	int j;
+	int i = 0;
 	int counter = 0;
 
 	if (format == NULL || format[0] == '\0')
-	{
 		return (-1);
-	}
 
 	va_start(args, format);
 	while (format[i] != '\0')
@@ -42,8 +28,7 @@ int _printf(const char *format, ...)
 		if (format[i] != '%')
 		{
 			counter += _putchar(format[i]);
-		}
-		else
+		} else
 		{
 			for (j = 0; specifiers[j].specifier != '\0'; j++)
 			{
@@ -60,8 +45,7 @@ int _printf(const char *format, ...)
 				counter += _putchar(format[i + 1]);
 				i++;
 			}
-		}
-		i++;
+		} i++;
 	}
 	va_end(args);
 	return (counter);
