@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_print_deci - prints decimals
+ *_printf_deci - function that prints decimals
  *@ap: contains decimals
  *Return: the number of printed decimals
  */
@@ -9,7 +9,7 @@ int _printf_deci(va_list ap)
 {
 	int n = va_arg(ap, int);
 	int counter = 0;
-	unsigned int num = n; 
+	unsigned int num = n;
 	int div = 1;
 
 	if (n < 0)
