@@ -1,10 +1,9 @@
 #include "main.h"
 
-/*
- * printf_int - prints integer
- * @ap: contain the integer
- *
- * Return: the number of character printed.
+/**
+ *printf_int - prints an integer
+ *@ap: contain the integer
+ *Return: the number of character printed.
  */
 
 int printf_int(va_list ap)
@@ -24,7 +23,9 @@ int printf_int(va_list ap)
 		num = n;
 	}
 	while (num / div > 9)
-		div *= 	10;
+	{
+		div *= 10;
+	}
 	while (div != 0)
 	{
 		len += _putchar((num / div) + '0');
