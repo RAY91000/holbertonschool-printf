@@ -10,7 +10,7 @@ This project's purpose is to recreate that very same function but under the name
 
 ## The main purpose
 
-We're looking to replicate the `character`, `string` and `integer`'s printing 
+We're looking to replicate printf()'s `character`, `string` and `integer`'s printing 
 functionalities through this _printf function.
 Here are some examples:
 
@@ -58,7 +58,7 @@ The output on the terminal will be 999
 All of our codes will be compiled on Ubuntu 20.04 LTS with:
 
 ```
-`gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c`
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 ```
 ## Man Page
 
