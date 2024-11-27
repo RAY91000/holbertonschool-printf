@@ -1,4 +1,4 @@
-![Holberton school image](https://holberton.anahuacmayab.mx/wp-content/uploads/2022/06/Holberton-Logo-v1.png)
+[Holberton school image](https://holberton.anahuacmayab.mx/wp-content/uploads/2022/06/Holberton-Logo-v1.png)
 # Printf Project
 
 printf is a function used to print character strings that'll return to the terminal output.
