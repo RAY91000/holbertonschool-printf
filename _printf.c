@@ -15,9 +15,9 @@ int _printf(const char *format, ...)
 		{'%', _printf_percent}, {'\0', NULL},
 	};
 	va_list args;
-	int j;
-	int i = 0;
-	int counter = 0;
+	int j, i, counter;
+
+	i = 0, counter = 0;
 
 	if (format == NULL || format[0] == '\0')
 		return (-1);
@@ -26,9 +26,8 @@ int _printf(const char *format, ...)
 	while (format[i] != '\0')
 	{
 		if (format[i] != '%')
-		{
 			counter += _putchar(format[i]);
-		} else
+		else
 		{
 			for (j = 0; specifiers[j].specifier != '\0'; j++)
 			{
@@ -43,6 +42,7 @@ int _printf(const char *format, ...)
 			{
 				counter += _putchar(format[i]);
 				counter += _putchar(format[i + 1]);
+				va_arg(args, int *);
 				i++;
 			}
 		} i++;
