@@ -113,6 +113,13 @@ All of our codes will be compiled on Ubuntu 20.04 LTS with:
 ```
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 ```
+
+## Coding style
+
+Here, at Holberton School, we have a specific coding style that makes our codes look clean and easy to read:
+
+Its called the [Betty-style](https://github.com/hs-hq/Betty/blob/main/betty-style.pl). With this we respect numerous spacing and syntaxes which is very useful to improve one's code clarity.
+
 ## Man Page
 
 Here is our [manual page](https://github.com/RAY91000/holbertonschool-printf/blob/main/man_3_printf). Feel free to check it out!
