@@ -42,7 +42,7 @@ Purpose: It provides access to system calls such as reading, writing, and closin
 
 ## Flowchart
 
-![Flowchart image (1)](https://cdn.discordapp.com/attachments/1112152814777544847/1311420238016811018/Logigramme.png?ex=6748cac5&is=67477945&hm=e770cc2c2acfca80023e5646aebc48f50f6e1b149b02ee9b43273001beae213a&)
+![Flowchart image (1)](https://cdn.discordapp.com/attachments/1304357542444404768/1311833243427016785/Logigramme_1.png?ex=674a4b69&is=6748f9e9&hm=3acc6eb8094514af3bb013f20a361e481b5d8c24a2985a8475306e181f635edc&)
 
 ## The main purpose
 
