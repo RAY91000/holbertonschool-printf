@@ -69,7 +69,10 @@ int main(void)
     return (0);
 }
 ```
-The output on the terminal will be K
+`Output`:
+```
+K
+```
 
 ### String
 
@@ -82,7 +85,10 @@ int main(void)
     return (0);
 }
 ```
-The output on the terminal will be Hello, World
+`Output`: 
+```
+Hello, World
+```
 
 ### Integer
 
@@ -95,7 +101,10 @@ int main(void)
     return (0);
 }
 ```
-The output on the terminal will be 999
+`Output`:
+```
+999
+```
 
 ## Compilation
 
