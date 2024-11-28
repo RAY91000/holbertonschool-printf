@@ -1,6 +1,6 @@
 #include "main.h"
-#include "stdarg.h"
-#include "limits.h"
+#include <stdarg.h>
+#include <limits.h>
 /**
  *printf_int - prints an integer
  *@ap: contain the integer
