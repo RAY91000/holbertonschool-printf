@@ -1,5 +1,6 @@
 #include "main.h"
 #include "stdarg.h"
+#include "limits.h"
 /**
  *printf_int - prints an integer
  *@ap: contain the integer
@@ -13,7 +14,12 @@ int printf_int(va_list ap)
 	int len = 0;
 	int div = 1;
 
-	if (n < 0)
+	if (n == INT_MIN)
+	{
+		len += _putchar('-');
+		num = (unsigned int)(-(n + 1)) + 1;
+	}
+	else if (n < 0)
 	{
 		len += _putchar('-');
 		num = -n;
